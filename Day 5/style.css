@@ -1,0 +1,24 @@
+body {
+    background-color: lightblue;
+  }
+  .container {
+    text-align: center;
+    margin: top;
+  }
+  table {
+    margin: 0px 0px 0px 470px;
+  }
+  input {
+    font-size: 35px;
+    color: indigo;
+    margin: aut
+    padding: auto;
+  }
+  button {
+    font-size: 25px;
+    background: crimson;
+    width: 68px;
+    height: 44;
+    box-shadow: inset 0 0 20px rgb(0 0 0 / 50%);
+  }
+  
