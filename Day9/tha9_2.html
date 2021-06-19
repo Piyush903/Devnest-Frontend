@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Event use</h2>
+
+
+<p id="ok"></p>
+
+<script>
+    window.onload=()=>{const person = {
+  fullName: function() {
+    return `${this.firstName}  ${this.lastName}`;
+  }
+}
+const person1 = {
+  firstName:"John",
+  lastName: "Doe"
+}
+const person2 = {
+  firstName:"Mary",
+  lastName: "Doe"
+}
+document.getElementById("ok").innerText = person.fullName.call(person1); 
+
+
+    }
+</script>
+
+</body>
+</html>
