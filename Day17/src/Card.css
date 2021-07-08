@@ -1,0 +1,8 @@
+.card {
+    background-color:aqua;
+    color:burlywood;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 1rem;
+    box-shadow: 10px 3px 3px #111;
+  }
