@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.template {
+  width: 50%;
+  display: inline-block;
+  border: 10px solid transparent;
+}
+.template .image {
+  margin: 10px;
+  width: 100%;
+  height: 540px;
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+}
+.App h1 {
+  text-align: center;
+  margin: 10px;
+}
+.meme img {
+  width: auto;
+  height: 300px;
+  border: 1px solid black;
+}
+.meme {
+  text-align: center;
+}
+.meme input {
+  margin: 10px;
+  padding: 5px;
+}
+.meme button {
+  padding: 5px;
+  margin: 10px;
+}
