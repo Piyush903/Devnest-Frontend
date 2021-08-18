@@ -1,6 +1,6 @@
 import Card from "./Card";
 import "./Container.css";
-const Container = ({ cards }) => {
+const Container = ( {cards }) => {
   return (
     <div className="card-container">
       {cards.map((e) => (
