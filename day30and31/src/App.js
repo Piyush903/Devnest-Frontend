@@ -5,7 +5,7 @@ import Nav from './components/Nav';
 import Home from './Home';
 import Cart from './components/Cart';
 import {Provider} from 'react-redux';
-import store from './store';
+import {store} from './store/store';
 import Details from './components/Details';
 function App() {
   return (
